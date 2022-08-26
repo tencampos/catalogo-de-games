@@ -1,0 +1,17 @@
+html{
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient(rgb(255, 255, 255), #ac0505);
+  
+}
+
+.box1{
+    background-color: #ac0505;
+    width: 300px;
+    
+}
+
+
+
