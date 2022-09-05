@@ -3,15 +3,64 @@ html{
     margin: 0px;
     width: 100%;
     height: 100%;
-    background-image:linear-gradient(rgb(255, 255, 255), #ac0505);
+   
   
 }
 
-.box1{
-    background-color: #ac0505;
-    width: 300px;
+.logo{
+    width: 200px;
+    height: 50px;
+    margin: 5px;
+}
+
+.menu-logo{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.menu-nav{
+    margin-right: 5px;
+}
+
+li{
+    margin-right: 3px;
     
 }
 
 
+
+ .main-box{
+    display: flex;
+    width: 100%;
+    height: 400px;
+    border-style: solid;
+    border: 2px;
+    border-color: black;
+    justify-content: center;
+    -ms-flex-direction: row;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+ }
+
+ .box-tw1, .box-tw2, .box-tw3, .box-gwent{
+    width: 25%;
+    height: 100%;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    
+ }
+
+ 
+.efeito{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+    
+.efeito:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+        
+}
 
