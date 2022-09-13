@@ -3,9 +3,8 @@ html{
     margin: 0px;
     width: 100%;
     height: 100%;
-   
-  
 }
+
 
 .logo{
     width: 200px;
@@ -68,10 +67,51 @@ li{
     padding-top: 40px;
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     
+    
 }
 
 .noticia{
     padding: 10px;
+    font-family: 'Noto Serif Georgian', serif;
+    
     
 }
 
+.titulo-news{
+    text-align: center;
+    width: 100%;
+    font-family: 'Noto Serif Georgian', serif;
+    border: 0px;
+    border-style: solid;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px;
+
+}
+
+.shadow-box-main{
+
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.midia-edit{
+    width: 100%;
+    text-align: center;
+    font-family: 'Noto Serif Georgian', serif;
+}
+
+.borda-main{
+    border: 5px;
+    border-style: solid;
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+}
+
+#slide{
+    border: 0px;
+    border-style: solid;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
