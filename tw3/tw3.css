@@ -5,6 +5,11 @@ html{
     height: 100%;
 }
 
+body{
+    background-image: url("https://media.giphy.com/media/FoVi0LDjy1XS8/giphy.gif");
+    background-repeat: repeat;
+}
+
 
 .logo{
     width: 200px;
@@ -84,7 +89,9 @@ li{
     border: 0px;
     border-style: solid;
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 15px;
+    display: inline-block;
+    background-color: white;
+    margin-bottom: 20px;
 
 }
 
@@ -115,3 +122,4 @@ footer{
     box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
+
